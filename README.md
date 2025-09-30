@@ -1,10 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Hello World!
-
-### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+When we move the camera object off the cat object, the camera doesn't move. This happens as our ability to move is in the player component attatched to the cat. The camera itself doesn't have any moving capabilities, so it can only move when attatched to the cat, who can move.
 
 ## Open-Source Assets
 ### W1
