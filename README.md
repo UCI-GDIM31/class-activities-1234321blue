@@ -14,6 +14,11 @@ Table 3
 2. A metaphor to compare components, classes, methods, and member variables is a concert. The concert as a whole is the component while the class is the performance on that stage. Within the performance, the people performing and doing work to keep the technology running are the member variables as they are the ones actually performing. The instruments and tools they use are the methods as they are what allow the people, or member variables to actually do something on stage.
 3. I think the balls get extremely bright when they bounce too many times because there isn't a method that decrease their brightness over time, so they will just continue to bounce and only increase their brightness to infinity or until they bounce off the screen.
 
+### W4
+Table 3
+1. Line 5 declares the member variable of _moveSpeed, which is of type float, and sets it value to 1.0f. The private before it keeps it contained to this class, and [SerializeField] makes it so we can see and change the variable within the Inspector tab in Unity. Line 22 declares a variable within the Update method, which is variable translation of type float. The value is set to whatever the player's vertical axis is times the value their current movement speed, times the value of the member variable deltaTime of class Time. In line 25, we are calling the method Translate from variable transform with the arguments that the value of x is 0, y is 0, and z is the value of variable translation, which was defined in line 22.
+2. We added Rigidbodies to the Cat and the SoccerBall objects as they both needed to be able to collide with each other. We added a trigger to the goal to detect when the ball entered or hit the goal.
+3. We got an error where we forgot to make the method return void, so the method was still expecting some variable to be returned. We just had to change the method's return type to void.
 
 ## Open-Source Assets
 ### W1
