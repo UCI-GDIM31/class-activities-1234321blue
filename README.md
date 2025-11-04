@@ -25,6 +25,10 @@ Table 3
 Update is called kind of randomly from object to object, but it's effect is overall miniscule because Update is called each frame, making it hard to notice a difference.
 2. The member variable we want to define is the GameObject we want the deer to track as it is something we should be able to adjust. Some methods we want to use are a start method that tells the deer where to go when the game starts, which we will do by calling the method SetDestination(). To do this, we will grab our deer's NavMeshAgent and use the SetDestination() method from it to make the deer target the position of the member variable GameObject from its transform component.
 
+### W6
+1. Unity Engine [Class Resources](https://docs.google.com/document/d/12M9ND9VMCNH2GKoPRBsCeOYkleAXUMs-frSjHPjas9A/edit?usp=sharing)
+2. Our basic plan for coding the BatW6 script is to have member variables for the bat's movement speed in a float and the cat's postion through a transform variable. Then, for the two methods, to make the bat chase the player, we wanted to use the translate method to move the bat towards the player's position. To make the bat stop, we wanted to use the translate method to the bat towards its own position so it would stop in place.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
