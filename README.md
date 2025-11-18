@@ -33,6 +33,9 @@ Update is called kind of randomly from object to object, but it's effect is over
 1. [Environment] https://docs.google.com/document/d/1yZqnc3GyaietJAPdXlV0iO8EaXxBU-2bWMjaaw1TMe4/edit?tab=t.0
 2. The code would only work in global space and would not account for local space like the translate method allows the code to do.
 
+### W8
+1. [Points and Item Rarity] https://docs.google.com/document/d/1bH_UfpS7NLyP5RQ2-J-6koZJK2ffy9PmBksPuVndz5o/edit?usp=sharing
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
